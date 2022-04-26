@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+ background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+h1 {
+  color: teal;
+  text-align: center;
+  font-family: 'Palette Mosaic', cursive;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  text-align: center;
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+  border: 3px solid teal;
+  padding: 19px;
+}
+
+.first-class {
+  color: teal;
+  font-weight: 700;
+}
+/* added font to different elements*/
+p, li, figcaption {
+  font-family: 'Open Sans', sans-serif;
+}
+/* made the image responsive with a fine border-radius*/
+img {
+  width: 70%;
+  border-radius: 17px;
+}
+/* margin, and color for the figcaption*/
+figcaption {
+  margin: 10px;
+  color: teal;
+}
+/* used a display flex layout for the section. Making it responsive*/
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: teal;
+  background-color: white;
+  border: 3px solid teal;
+  margin-top: 14px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  padding: 15px;
+}
+
+/* assigned width value to the ul element*/
+ul {
+  width: 55%;
+}
+
+/* added a maring for each list item*/
+li {
+  margin: 10px;
+}
+
+/* changing the anchor element color*/
+a {
+  color: black;
+}
+
+/* changes color when you hover*/
+a:hover {
+  color: teal;
+}
+
+/* changing the color of the cite element*/
+cite {
+  color: black;
+}
+
+/* changing color, marign and font to the footer*/
+footer {
+  color: teal;
+  margin: 15px;
+  }
+.p-font {
+  font-family: 'Palette Mosaic', cursive;
+
+}
